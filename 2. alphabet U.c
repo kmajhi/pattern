@@ -11,8 +11,12 @@ int main() {
                 } else {
                     printf("* ");
                 }
-            } else {
-                printf("* ");
+            } else if (i == 5) {
+                if (j == 1 || j == 5) {
+                    printf("  ");
+                } else {
+                    printf("* ");
+                }
             }
         }
         printf("\n");
