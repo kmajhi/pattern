@@ -10,7 +10,13 @@ public class Main {
                     } else {
                         System.out.print("* ");
                     }
-                } else {
+                } else if (i==5){
+                    if (j==1 || j==5){
+                        System.out.print("  ");
+                    } else {
+                        System.out.print("* ");
+                    }
+                } else{
                     System.out.print("* ");
                 }
             }
